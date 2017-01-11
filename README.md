@@ -1,9 +1,9 @@
 Ramp-KSVCR (Ramp Loss K-Support Vector Classification-Regression); A sparse and robust methodology for multi-class classification problem
 ---
-This is a guideline about our proposed method named “Ramp Loss K-Support Vector Classification-Regression; Ramp-KSVCR”. In summary, we proposed a precise, sparse and robust approch for multi-class classification problem based on the Ramp Loss K-Support Vector Classification-Regression. The main objectives of this research are to address the following issues; \\
+This is a guideline about our proposed method named “Ramp Loss K-Support Vector Classification-Regression; Ramp-KSVCR”. In summary, we proposed a precise, sparse and robust approch for multi-class classification problem based on the Ramp Loss K-Support Vector Classification-Regression. The main objectives of this research are to address the following issues; \
 
-1) Enhance the performance of K-SVCR method on some datasets that have highly imbalanced and skewed classes’ distribution,
-2) Decrease the sensitivity of SVM and its extensions to the presence of noises and outliers in the training sets by introducing the Ramp loss function to our model; 
+1) Enhance the performance of K-SVCR method on some datasets that have highly imbalanced and skewed classes’ distribution,\
+2) Decrease the sensitivity of SVM and its extensions to the presence of noises and outliers in the training sets by introducing the Ramp loss function to our model; \
 3) The proposed Ramp-KSVCR model is a non-differentiable non-convex optimization problem, hence, we took Concave–Convex Procedure (CCCP) to solve this model.
 
 To make our model more applicable in the large-scale setting and to reduce the training time, Alternating Direction Method of Multipliers (ADMM) is used to solve sub-quadratic programming problems in each iteration of our CCCP.
