@@ -23,18 +23,22 @@ This is a source code of “Ramp Loss K-Support Vector Classification-Regression
 
 Platform: MATLAB
 Copyright: Bamakan, S. M. H., Wang, H., & Shi, Y. (2017).
+
 E-mail: S.M.Hosseini Bamakan: s_mojtabahossini@yahoo.com
  Huadong Wang: huadw2012@163.com
+ 
 Researchgate page: https://www.researchgate.net/profile/Smojtaba_Hosseini_Bamakan
+
 Github page: https://github.com/smhbamakan/Ramp-KSVCR
  *********************************************************************************************
 
-Data sets provided as demo:
+****Data sets provided as demo:
 Demo-Dataset.mat: This is a random sample of NSL-KDD dataset as multi-class, highly imbalanced and skewed dataset. This dataset just provided as an example to show how our algorithm works. It should be noted that the experiments has been done in the paper are not based on this demo-dataset. 
 
 XandY.mat: To examine the effect of the ramp loss function on the performance of K-SVCR and to find out how this non-convex loss affects the decision boundary of the Ramp-KSVCR model, we performed some examinations with artificial data in R2 dimension. 
-Scripts:
 
+
+****Scripts:
 Gridsearch.m: This file can be used to do the grid search and cross-validation. The following parameters should be determined or tuned before apply the model.
 
 obj.parameters.C ; C is a constant penalty parameter(C>=0). 
@@ -50,12 +54,13 @@ obj.cvCriteria = ACC;    Accuracy is used for cross-validation evaluation
 RampKSVCR_Evaluation.m: This file can be used to evaluate the performance of Ramp-KSVCR without grid search. 
 
 
-It should be noted that: 
+****It should be noted that: 
 Parameter  ε which is used to control the width of insensitive margin, is an influential parameter affect the sparsity and overall performance of the model.
  We set ρ=1 in Algorithm 3.  s and  t are two parameters of ramp loss function which determine the effectiveness of  ramp-KSVCR in dealing with the outliers. According to the (Bottou & Giles, 2011), if s→-∞, then R_s→H_1; it means that moving s toward the large negative value will diminish the effect of the Ramp loss on the outliers. In this research we set searching rage for s and  t as follows: s ∈[-5,-0.1] and t∈[1,5]. For implementation of our model Ramp-KSVCR, we recommend that the value of t should be larger than ε and as recommended in (Y. Wu & Liu, 2012), choosing s=-1/(k-1), where k is the number of classes. 
+---------------
 
 
-Plots section
+****Plots section
 
 KSVCRshow.m: This file can be used to plot the decision boundary of K-SVCR model with artificial data in R2 dimension.
 
