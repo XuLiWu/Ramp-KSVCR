@@ -21,7 +21,8 @@ Ramp-KSVCR Toolbox.V4
 
 This is a source code of “Ramp Loss K-Support Vector Classification-Regression” which is a precise, sparse and robust approch for multi-class classification problem
 
-Platform: MATLAB
+Platform: MATLAB,
+
 Copyright: Bamakan, S. M. H., Wang, H., & Shi, Y. (2017).
 
 E-mail: S.M.Hosseini Bamakan: s_mojtabahossini@yahoo.com
@@ -42,13 +43,21 @@ XandY.mat: To examine the effect of the ramp loss function on the performance of
 Gridsearch.m: This file can be used to do the grid search and cross-validation. The following parameters should be determined or tuned before apply the model.
 
 obj.parameters.C ; C is a constant penalty parameter(C>=0). 
-obj.parameters.k ; is kernel width. Here gamma as RBF kernel parameter (0,1]
+
+obj.parameters.k ; is kernel width. Here gamma as RBF kernel parameter (0,1],
+
 obj.parameters.e ; insensitive paramter function([0,1))
+
 obj.parameters.t ; Ramp loss function parameter((e,+Inf))
+
 obj.parameters.s ; Ramp loss function parameter((-Inf,1])
+
 obj.parameters.threshold=0;
+
 obj.nOfFolds = 5 ;     Number of fold for cross-validation techniques. 
+
 obj.method = Algorithm;      Ramp-KSVCR is used as our method
+
 obj.cvCriteria = ACC;    Accuracy is used for cross-validation evaluation
 
 RampKSVCR_Evaluation.m: This file can be used to evaluate the performance of Ramp-KSVCR without grid search. 
