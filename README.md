@@ -19,7 +19,7 @@ Bamakan, S. M. H., Wang, H., & Shi, Y. (2017). Ramp loss K-Support Vector Classi
 ***** Instruction **************************************************************************
 
 Ramp-KSVCR Toolbox.V4
-
+-
 This is a source code of “Ramp Loss K-Support Vector Classification-Regression” which is a precise, sparse and robust approch for multi-class classification problem
 
 Platform: MATLAB,
