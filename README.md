@@ -1,6 +1,5 @@
-Ramp-KSVCR (Ramp Loss K-Support Vector Classification-Regression); 
-A sparse and robust methodology for multi-class classification problem
---
+Ramp-KSVCR (Ramp Loss K-Support Vector Classification-Regression); A sparse and robust methodology for multi-class classification problem
+---
 This is a guideline about our proposed method named “Ramp Loss K-Support Vector Classification-Regression; Ramp-KSVCR”. In summary, we proposed a precise, sparse and robust approch for multi-class classification problem based on the Ramp Loss K-Support Vector Classification-Regression. The main objectives of this research are to address the following issues; 
 
 1) Enhance the performance of K-SVCR method on some datasets that have highly imbalanced and skewed classes’ distribution,
