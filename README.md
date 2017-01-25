@@ -36,7 +36,7 @@ Github page: https://github.com/smhbamakan/Ramp-KSVCR
 
 ****Data sets provided as demo:
 -
-Demo-Dataset.mat: This is a random sample of NSL-KDD dataset as multi-class, highly imbalanced and skewed dataset. This dataset just provided as an example to show how our algorithm works. It should be noted that the experiments has been done in the paper are not based on this demo-dataset. 
+Demo-Dataset.mat: This is a random sample of NSL-KDD dataset as multi-class, highly imbalanced and skewed dataset. This dataset just provided as an example to show how our algorithm works. It should be noted that the experiments had been done in our paper are not based on this demo-dataset. 
 
 XandY.mat: To examine the effect of the ramp loss function on the performance of K-SVCR and to find out how this non-convex loss affects the decision boundary of the Ramp-KSVCR model, we performed some examinations with artificial data in R2 dimension. 
 
