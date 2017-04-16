@@ -25,6 +25,7 @@ This is a source code of “Ramp Loss K-Support Vector Classification-Regression
 Platform: MATLAB,
 
 Copyright: Bamakan, S. M. H., Wang, H., & Shi, Y. (2017).
+http://www.sciencedirect.com/science/article/pii/S0950705117301314 or http://doi.org/10.1016/j.knosys.2017.03.012
 
 E-mail: S.M.Hosseini Bamakan: s_mojtabahossini@yahoo.com
  Huadong Wang: huadw2012@163.com
