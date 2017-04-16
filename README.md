@@ -14,7 +14,7 @@ The details of proposed method is published in the following paper (Please cite 
 
 Reference:
 
-Bamakan, S. M. H., Wang, H., & Shi, Y. (2017). Ramp loss K-Support Vector Classification-Regression; A robust and sparse multi-class approach to the large-scale intrusion detection problem. Knowledge-Based Systems, Under Review.
+Bamakan, S. M. H., Wang, H., & Shi, Y. (2017). Ramp Loss K-Support Vector Classification-Regression; a robust and sparse multi-class approach to the intrusion detection problem. Knowledge-Based Systems. http://doi.org/10.1016/j.knosys.2017.03.012
 
 ***** Instruction **************************************************************************
 
